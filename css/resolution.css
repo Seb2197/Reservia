@@ -67,32 +67,25 @@
         margin: 15px 0 0 20px;
     }
 
-    ul.flex li:first-child a, ul.flex li:nth-child(2){
-        width: 100%;
+    .flex li{
+        width: 50%;
         text-align: center;
-    }
-
-    ul.flex li:first-child a, ul.flex li:nth-child(2):hover{
-        border-bottom: 3px #0065FC solid;
+        border-bottom: 2px #F2F2F2 solid;
         padding-bottom: 10px;
     }
 
-    ul.flex li:first-child a{
+    .flex li:first-child{
+        border-bottom: 2px #0065FC solid;
+        padding-bottom: 10px;
+    }
+
+    .flex li:first-child a{
         border-top: none;
-        border-bottom: 3px #0065FC solid;
-        padding-bottom: 10px;
-        padding-left: 40px;
-        color: #0065FC;
     }
 
-    ul.flex li:nth-child(2){
-        border-bottom: 3px #F2F2F2 solid;
-        padding-bottom: 10px;
+    .flex li:nth-child(3){
+        border-bottom: none;
     }
-
-    .flex li:nth-child(2) a:hover{
-        border-top: none;
-      }
 
       /* Réglages des sections */
 
@@ -152,6 +145,7 @@
 
     footer{
         flex-direction: column;
+        padding: 30px 30px;
     }
 
     .hebergement{

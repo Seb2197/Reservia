@@ -55,21 +55,17 @@ header img{
     color: black;
 }
 
-ul.flex li:first-child a{
+.flex li:first-child a{
     border-top: 2px #0065FC solid;
     padding-top: 23px;
     color: #0065FC;
 }
 
-ul.flex li:first-child a:hover{
-    color: #0065FC;
-}
-
-ul.flex li:nth-child(2) a:hover{
+.flex li:nth-child(2) a:hover{
     color:#0065FC;
 }
 
-ul.flex li:nth-child(3) a{
+.flex li:nth-child(3) a{
     color: #0065FC;
 }
 /* Fin de l'en tête de la page web */
@@ -79,7 +75,7 @@ footer{
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 30px 300px 30px 40px;
 }
