@@ -83,8 +83,21 @@
         border-top: none;
     }
 
+    .flex li:nth-child(2) a:hover{
+        border-top: none;
+    }
+
+    .flex li:nth-child(2):hover{
+        border-bottom: 2px #0065FC solid;
+        padding-bottom: 10px;
+    }
+
     .flex li:nth-child(3){
         border-bottom: none;
+    }
+
+    .flex li:nth-child(3) a:hover{
+        border-top: none;
     }
 
       /* Réglages des sections */
