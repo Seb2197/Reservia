@@ -133,33 +133,31 @@ p a:hover{
 .boutton{
     color:#ffff;
     background-color: #0065FC;
-    font-size: 18px;
-    border: 10px #0065FC solid;
+    font-size: 15px;
+    border: none ;
     border-radius: 0px 15px 15px 0px;
+    padding: 0 20px;
 }
 
 .recherche{
     display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .fa-map-marker-alt{
+    font-size: 13px;
     background-color: #F2F2F2 ;
-    border: 10px  #F2F2F2 solid;
     border-radius: 15px  0px  0px  15px;
-    padding: 2px 5px 2px 5px;
+    padding: 13px;
 }
 
 input{
     font-size: 14px;
     border: 2px #F2F2F2 solid;
-    padding: 10px 0 10px 0;
 }
 
 form i{
     border-radius: 15px 0px 0px 15px;
-    font-size: 22px;
+    font-size: 14px;
 }
 
 input::-webkit-input-placeholder{
@@ -193,9 +191,6 @@ input::-webkit-input-placeholder{
     font-size: 14px;
 }
 
-.fa-map-marker-alt{
-    font-size: 18px;
-}
 /* Fin de la barre de recherche et des informations complémentaires */
 
 /* Début des Hébergements à Marseille */
