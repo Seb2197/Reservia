@@ -17,4 +17,3 @@ Comme je ne savais pas de quels tailles et formats d’image tu avais besoin, j�
 Les icônes proviennent de la bibliothèque Font Awesome. Les couleurs de la charte sont le bleu #0065FC, et sa version plus claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.
 La police du site est Raleway.
 
-ooki
